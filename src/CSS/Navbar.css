@@ -1,0 +1,14 @@
+.navbar-link{
+    display:flex;
+    /* justify-content: none; */
+    list-style-type: none;
+    
+    
+}
+.navbar-link > li {
+    margin: 10px;
+}
+.Navbar{
+    background-color: yellow;
+    padding: 20px;
+}
