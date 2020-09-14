@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home'
+import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <Navigation />
+      <Navbar />
       <Switch>
+      <Route exact path = '/' component={Home} />
 
       </Switch>
     </div>
