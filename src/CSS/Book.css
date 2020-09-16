@@ -1,10 +1,10 @@
 .form-div{
-    margin:100px;
+    /* margin:100px; */
     background-color: antiquewhite;
     justify-content: center; 
     border: 2px solid gray;
-    height: 800px;
-    width: 900px;
+    height: auto;
+    width: 100vw;
   }
  form { 
      margin: 0 auto; 
@@ -12,6 +12,7 @@
      border: 2px solid gray;
      text-align: center;
      padding: 20px;
+     background-color: yellowgreen;
      }
  label {
      width:180px;
