@@ -27,6 +27,15 @@ function Suites(props) {
                      <Carousel.Item>
                           <img src={require("../images/suite.jpg")}  className="d-block w-100" alt="Bedroom"/>
                      </Carousel.Item>
+                     <Carousel.Item>
+                          <img src={require("../images/type_hotel.jpg")}  className="d-block w-100" alt="Bedroom"/>
+                     </Carousel.Item>
+                     <Carousel.Item>
+                          <img src={require("../images/type2.jpg")}  className="d-block w-100" alt="Bedroom"/>
+                     </Carousel.Item>
+                     <Carousel.Item>
+                          <img src={require("../images/typethree.jpg")}  className="d-block w-100" alt="Bedroom"/>
+                     </Carousel.Item>
                   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                       <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span className="sr-only">Previous</span>
