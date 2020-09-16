@@ -5,6 +5,8 @@ import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Book from './components/Book'
 import Amenities from './components/Amenities'
+import Reservation from './components/Reservation'
+import Explore from './components/Explore'
 
 function App() {
   return (

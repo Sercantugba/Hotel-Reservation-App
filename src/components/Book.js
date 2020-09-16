@@ -53,12 +53,12 @@ onSubmit=(event) =>{
 postAPI = async (formData) =>{
     console.log(formData)
     try{
-            const response = await axios.post("", formData
+            const response = await axios.post("/sercan_api/v1/reservation", formData
            
             );
             console.log(response.data);
             this.setState({reserve: response.data}) 
-            this.props.history.push('/book/');
+            this.props.history.push('/reservation/');
         }
 
     catch(e){

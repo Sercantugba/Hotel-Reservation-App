@@ -7,7 +7,7 @@ export default function AboutUsContact() {
         <div className="amenities-main-div">
           <h5>
 
-          Sercan Beach Island Resort
+          Andros Island Resort
           </h5>  
           <p>Lose yourself at a place where you can sense a truer,more timeless Florida.Escape to the wild beauty and unrivaled island of this luxury resort with emblematic sea views, crystal clear waters, sparkling infinity pools, a cuisine that celebrates the gastronomic legacy of the region, and personalized services, all on an island brimming with history and culture.</p>
          
@@ -17,12 +17,12 @@ export default function AboutUsContact() {
             Contact Us|Locations
             </h5>  
             <p>
-             Ph: 786-292-0260
+             Ph: 682-292-0260
              <br/>
              Address: 
-             1 Knights Key Boulevard MM, Marathon,FL 33050
+             1907 Andros Ct,Dallas,TX 75201 
              <br/>
-             Email: sercanbeach.resort@gmail.com
+             Email: androsisland.resort@gmail.com
 
             </p>
         </div>

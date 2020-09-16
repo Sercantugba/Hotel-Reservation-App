@@ -6,6 +6,8 @@ import Suites from './Suites'
 import Contact from './Contact'
 import Map from './Map'
 import Amenities from './Amenities'
+import Explore from './Explore'
+import Reservation from './Reservation'
 import '../CSS/Navbar.css'
 
 
@@ -29,14 +31,17 @@ function Navbar(props) {
                   <Link to="/Book">BOOK NOW</Link>
                 </li>
                 <li>
+                  <Link to="/Reservation">RESERVATION</Link>
+                </li>
+                <li>
                   <Link to="/Contact">CONTACT</Link>
                 </li>
                
                 <li>
-                  <Link to="/Map">MAP</Link>
+                  <Link to="/Explore">EXPLORE</Link>
                 </li>
                 <li style={{marginLeft:"300px"}}>
-                  Sercan Island Resort
+                  ANDROS Island Resort
                 </li>
               
                
@@ -57,11 +62,14 @@ function Navbar(props) {
               <Route path="/Book">
                 <Book />
               </Route>
+              <Route path="/Reservation">
+                <Reservation />
+              </Route>
               <Route path="/Contact">
                 <Contact/>
               </Route>
-              <Route path="/Map">
-                <Map/>
+              <Route path="/Explore">
+                <Explore/>
 
               </Route>
              
