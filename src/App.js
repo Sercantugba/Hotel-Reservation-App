@@ -7,6 +7,7 @@ import Book from './components/Book'
 import Amenities from './components/Amenities'
 import Reservation from './components/Reservation'
 import Explore from './components/Explore'
+// import EditReservation from './components/EditReservation'
 
 function App() {
   return (

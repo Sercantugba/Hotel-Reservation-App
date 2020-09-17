@@ -8,6 +8,7 @@ import Map from './Map'
 import Amenities from './Amenities'
 import Explore from './Explore'
 import Reservation from './Reservation'
+// import EditReservation from './EditReservation'
 import '../CSS/Navbar.css'
 
 
@@ -65,6 +66,9 @@ function Navbar(props) {
               <Route path="/Reservation">
                 <Reservation />
               </Route>
+              {/* <Route path="/EditReservation">
+                <EditReservation />
+              </Route> */}
               <Route path="/Contact">
                 <Contact/>
               </Route>

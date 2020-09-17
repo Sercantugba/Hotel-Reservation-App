@@ -17,7 +17,7 @@ export default class Reservation extends Component {
   async componentDidMount() {
  
     try{
-            const response = await axios.get("/sercan_api/v1/reserve");
+            const response = await axios.get("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve");
             console.log(response.data);
             this.setState({reserve: response.data, isLoading: false})
         }
@@ -28,9 +28,10 @@ export default class Reservation extends Component {
     }
 
     async remove(id) {
+        console.log(id);
  
       try{
-              const response = await axios.delete(`/sercan_api/v1/reserve/${id}`);
+              const response = await axios.delete(`https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve/${id}`);
               console.log(response.data);
               let update = this.state.reserve.filter(i => i.id !== id);
               this.setState({reserve: update})

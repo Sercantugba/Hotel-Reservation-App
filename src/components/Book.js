@@ -16,8 +16,7 @@ export default class Book extends Component {
         LastName: "",
         Email: "",
         Phone: "",
-        Adults: "",
-        Kids: "",
+        Persons: "",
         RoomType: "",
         ArrivalDate: "",
         DeparatureDate:"",
@@ -41,8 +40,7 @@ onSubmit=(event) =>{
         email : this.state.Email,
         phone : this.state.Phone,
         roomPreference : this.state.RoomType,
-        noOfAdults : this.state.Adults,
-        noOfChildren : this.state.Kids,
+        numberOfPersons : this.state.Persons, 
         arrivalDate : this.state.ArrivalDate,
         departureDate : this.state.DeparatureDate,
         questions : this.state.Questions
@@ -53,12 +51,12 @@ onSubmit=(event) =>{
 postAPI = async (formData) =>{
     console.log(formData)
     try{
-            const response = await axios.post("/sercan_api/v1/reservation", formData
+            const response = await axios.post("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve", formData
            
             );
             console.log(response.data);
             this.setState({reserve: response.data}) 
-            this.props.history.push('/reservation/');
+            this.props.history.push('/reserve/');
         }
 
     catch(e){
@@ -96,7 +94,7 @@ postAPI = async (formData) =>{
                     <br/>
                     <label>
                         Number of persons(required):  </label>  <br/>
-                        <input type="text" name="Adults" value={this.state.Adults} onChange={this.onChange} placeholder="1" />
+                        <input type="text" name="Persons" value={this.state.Persons} onChange={this.onChange} placeholder="1" />
                     <br/>
                     <label>
                         Arrival Date:  </label>  <br/>
