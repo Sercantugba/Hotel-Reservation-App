@@ -56,7 +56,7 @@ postAPI = async (formData) =>{
             );
             console.log(response.data);
             this.setState({reserve: response.data}) 
-            this.props.history.push('/reserve/');
+            // this.props.history.push('/reserve/');
         }
 
     catch(e){
@@ -109,7 +109,7 @@ postAPI = async (formData) =>{
                         <input id="text-area" type="text" name="Questions" value={this.state.Questions} onChange={this.onChange} placeholder="" />
                     <br/>
                     <label id="reserve-submit"> </label>  <br/>
-                        <input type="submit"  value="Sumbit Reservation" />
+                        <input type="submit"  value="Submit Reservation" />
                  
                     <br/>
                     </form>
