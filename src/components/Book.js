@@ -33,7 +33,9 @@ export default class Book extends Component {
 
 
 onSubmit=(event) =>{
+    
     event.preventDefault();
+    alert("We received your request.Please check your email for confirmation!Thank you for choosing Andros Resort!!");
     let formData = {
         firstName : this.state.FirstName,
         lastName : this.state.LastName,
@@ -109,7 +111,7 @@ postAPI = async (formData) =>{
                         <input id="text-area" type="text" name="Questions" value={this.state.Questions} onChange={this.onChange} placeholder="" />
                     <br/>
                     <label id="reserve-submit"> </label>  <br/>
-                        <input type="submit"  value="Submit Reservation" />
+                        <input id ="submit"type="submit"  value="Submit Reservation" />
                  
                     <br/>
                     </form>
