@@ -23,6 +23,7 @@
      margin-right:20px;
      
      
+     
  }
  
   input{
@@ -34,7 +35,9 @@
  #reserve-submit{
      text-align: center;
      width: 400px;
+     /* background-color: blue; */
  } */
+
  
  #text-area{
      height: 100px;
