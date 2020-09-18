@@ -121,8 +121,8 @@ postAPI = async (formData) =>{
                         <input type="text" name="RoomType" value={this.state.RoomType} onChange={this.onChange} />          
                     <br/>
                     <label>
-                        No of Persons:  </label>
-                        <input type="text" name="Persons" value={this.state.Adults} onChange={this.onChange} />
+                        Number of Persons:  </label>
+                        <input type="text" name="Persons" value={this.state.Persons} onChange={this.onChange} />
                     <br/>
                     
                     <label>
