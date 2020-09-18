@@ -30,7 +30,7 @@ export default class EditReservation extends Component {
       console.log(this.state.id)
  
     try{
-            const response = await axios.get("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve/"+this.state.id)
+            const response = await axios.get("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve/"+window.location.pathname.split("/")[2])
             console.log(response.data);
             this.setState({FirstName: response.data.firstName,
                 LastName: response.data.lastName,
@@ -62,6 +62,7 @@ export default class EditReservation extends Component {
 
 onSubmit=(event) =>{
     event.preventDefault();
+    alert("We received your changes request.Please check your email for confirmation!Thank you for choosing Andros Resort!!");
     let formData = {
         firstName : this.state.FirstName,
         lastName : this.state.LastName,
@@ -79,7 +80,7 @@ onSubmit=(event) =>{
 postAPI = async (formData) =>{
     console.log(formData)
     try{
-            const response = await axios.put("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve"+this.props.match.params.id, formData
+            const response = await axios.put("https://cors-anywhere.herokuapp.com/https://calm-ocean-37082.herokuapp.com/sercan_api/v1/reserve/"+window.location.pathname.split("/")[2], formData
            
             );
             console.log(response.data);
