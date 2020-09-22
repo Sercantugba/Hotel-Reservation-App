@@ -4,7 +4,7 @@ import Book from './Book'
 import Home from './Home'
 import Suites from './Suites'
 import Contact from './Contact'
-import Map from './Map'
+import Mapcontainer from './Map'
 import Amenities from './Amenities'
 import Explore from './Explore'
 import Reservation from './Reservation'
@@ -18,7 +18,9 @@ function Navbar(props) {
             <Router>
           <div className='Navbar'>
             <nav>
+            
               <ul className="navbar-link" >
+              
                 <li>
                   <Link to="/">HOME</Link>
                 </li>
@@ -41,9 +43,13 @@ function Navbar(props) {
                 <li>
                   <Link to="/Explore">EXPLORE</Link>
                 </li>
-                <li style={{marginLeft:"300px"}}>
-                  ANDROS Island Resort
+                <li>
+                  <Link to="/Map">MAP</Link>
                 </li>
+                <li style={{marginLeft:"300px"}}>
+                  <span style={{color:"grey",fontFamily:"fantasy"}}>ANDROS ISLAND RESORT</span>
+                </li>
+              
               
                
               </ul>
@@ -72,6 +78,10 @@ function Navbar(props) {
               </Route>
               <Route path="/Explore">
                 <Explore/>
+
+              </Route>
+              <Route path="/Map">
+                <Mapcontainer/>
 
               </Route>
              

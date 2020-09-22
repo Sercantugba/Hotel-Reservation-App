@@ -36,7 +36,7 @@ export default class EditReservation extends Component {
                 LastName: response.data.lastName,
                 Email: response.data.email,
                 Phone: response.data.phone,
-                Persons: response.data.persons,
+                Persons: response.data.numberOfPersons,
                 RoomType: response.data.roomPreference,
                 ArrivalDate: response.data.arrivalDate,
                 Questions: response.data.questions,
