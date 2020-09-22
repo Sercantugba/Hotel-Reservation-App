@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Hotel-Reservation-App/static/css/main.a62136ca.chunk.css",
+    "main.js": "/Hotel-Reservation-App/static/js/main.08a9f530.chunk.js",
+    "main.js.map": "/Hotel-Reservation-App/static/js/main.08a9f530.chunk.js.map",
+    "runtime-main.js": "/Hotel-Reservation-App/static/js/runtime-main.e4634a7b.js",
+    "runtime-main.js.map": "/Hotel-Reservation-App/static/js/runtime-main.e4634a7b.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Hotel-Reservation-App/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.6c892679.chunk.js": "/Hotel-Reservation-App/static/js/2.6c892679.chunk.js",
+    "static/js/2.6c892679.chunk.js.map": "/Hotel-Reservation-App/static/js/2.6c892679.chunk.js.map",
+    "index.html": "/Hotel-Reservation-App/index.html",
+    "precache-manifest.bf893a4a84bdb1ecc0d85e4acf81f5f9.js": "/Hotel-Reservation-App/precache-manifest.bf893a4a84bdb1ecc0d85e4acf81f5f9.js",
+    "service-worker.js": "/Hotel-Reservation-App/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Hotel-Reservation-App/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.a62136ca.chunk.css.map": "/Hotel-Reservation-App/static/css/main.a62136ca.chunk.css.map",
+    "static/js/2.6c892679.chunk.js.LICENSE.txt": "/Hotel-Reservation-App/static/js/2.6c892679.chunk.js.LICENSE.txt",
+    "static/media/hotel-room-.jpg": "/Hotel-Reservation-App/static/media/hotel-room-.fb764442.jpg",
+    "static/media/Home.css": "/Hotel-Reservation-App/static/media/hotel.689eec7d.jpg",
+    "static/media/pool.jpg": "/Hotel-Reservation-App/static/media/pool.6a3495c0.jpg",
+    "static/media/pool2.jpg": "/Hotel-Reservation-App/static/media/pool2.7fbba139.jpg",
+    "static/media/rest.jpg": "/Hotel-Reservation-App/static/media/rest.7b308c31.jpg",
+    "static/media/room.jpg": "/Hotel-Reservation-App/static/media/room.85842331.jpg",
+    "static/media/sea.jpg": "/Hotel-Reservation-App/static/media/sea.d8eb8d35.jpg",
+    "static/media/suite.jpg": "/Hotel-Reservation-App/static/media/suite.b8c7099a.jpg",
+    "static/media/type2.jpg": "/Hotel-Reservation-App/static/media/type2.3501d570.jpg",
+    "static/media/type_hotel.jpg": "/Hotel-Reservation-App/static/media/type_hotel.3228d250.jpg",
+    "static/media/typethree.jpg": "/Hotel-Reservation-App/static/media/typethree.0a66f48d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4634a7b.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.6c892679.chunk.js",
+    "static/css/main.a62136ca.chunk.css",
+    "static/js/main.08a9f530.chunk.js"
+  ]
+}
