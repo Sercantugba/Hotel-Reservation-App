@@ -22,7 +22,7 @@ function Navbar(props) {
               <ul className="navbar-link" >
               
                 <li>
-                  <Link to="/Hotel-Reservation-App/">HOME</Link>
+                  <Link exact to="/">HOME</Link>
                 </li>
                 <li>
                   <Link to="/Suites">ROOMS&SUITES</Link>
