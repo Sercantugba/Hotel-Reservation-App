@@ -22,7 +22,7 @@ function Navbar(props) {
               <ul className="navbar-link" >
               
                 <li>
-                  <Link exact to="/">HOME</Link>
+                  <Link to="/">HOME</Link>
                 </li>
                 <li>
                   <Link to="/Suites">ROOMS&SUITES</Link>
@@ -57,9 +57,7 @@ function Navbar(props) {
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}
             <Switch>
-              <Route exact path="/">
-                <Home/>
-              </Route>
+              
               <Route path="/Suites">
                 <Suites />
               </Route>
@@ -83,6 +81,9 @@ function Navbar(props) {
               <Route path="/Map">
                 <Mapcontainer/>
 
+              </Route>
+              <Route exact path="/">
+                <Home/>
               </Route>
              
             </Switch>
