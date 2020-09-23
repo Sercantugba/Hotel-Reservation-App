@@ -46,6 +46,19 @@ The capstone project will be to build an E-commerce web application. Students wi
 * Project is deployed using 1 of the deployment options(heroku, surge, aws or firebase
 * App must include full CRUD capabilities
 
+# API used
+* https://rapidapi.com/ 
+* TripAdvisor API to display near restaurants and places to visit in Dallas
+
+# Proposal
+* Created E-commerce hotel website with React to help customers make online reservation.
+
+
+# Resources
+* https://reactrouter.com/
+* https://reactjs.org/
+* https://react-bootstrap.github.io/getting-started/introduction/
+
  
 
 
