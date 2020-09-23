@@ -2,7 +2,7 @@
 
 # This is my deploy url:
 
-https://sercantugba.github.io/Hotel-Reservation-App/
+https://hotel-reservation-app-dc059.web.app
 
 # Project Requirements
 The capstone project will be to build an E-commerce web application. Students will decide what the E-Commerce site will be on. By the end of the course, the project should have the following:
